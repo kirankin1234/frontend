@@ -1,0 +1,130 @@
+.account-settings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.profile-section {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -250px;
+}
+
+.profile-icon {
+    font-size: 100px;
+    color: #555;
+}
+
+.profile-section h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.details-section {
+    flex: 2;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -250px;
+}
+
+.user-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.update-profile-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.update-profile-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Modal Styles */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    max-height: 90vh;
+    /* Ensure modal doesn't exceed 90% of viewport height */
+    overflow-y: auto;
+    /* Add scrollbar if content exceeds height */
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-changes-btn {
+    background-color: #61a0c0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.save-changes-btn:hover {
+    background-color: #486f9e;
+}
+
+.close-modal-btn {
+    background-color: #80aecc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.close-modal-btn:hover {
+    background-color: #546992;
+}

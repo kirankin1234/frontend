@@ -1,0 +1,40 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    /* Spread cards evenly */
+    align-items: center;
+    height: 100vh;
+    /* Center vertically */
+    background: #f4f6f9;
+    /* Light background */
+    padding: 20px;
+    /* Add padding to avoid edge sticking */
+}
+
+.query-card,
+.admin-card,
+.consumer-card {
+    width: 300px;
+    /* Adjusted width so three cards fit */
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    margin: 10px;
+    /* Add margin between cards */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.query-count {
+    font-size: 36px;
+    /* Slightly reduced size */
+    font-weight: bold;
+    color: #fff;
+}
